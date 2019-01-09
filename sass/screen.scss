@@ -1,0 +1,57 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "global.scss";
+
+@mixin header{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@mixin squares {
+  width: 100%;
+  height: 100%;
+  padding-top:30em;
+}
+
+h3 {
+  @include header;
+  font-weight:700;
+}
+
+body {
+  @include header;
+  font-weight:100;
+}
+
+.space-ray {
+  @include cover;
+  @include squares;
+  background-image: url("../srhero.jpg");
+}
+
+.cccom {
+  @include cover;
+  @include squares;
+  background-image: url("../img/ccomsquareupdate.jpg");
+}
+
+.wrangler {
+  @include cover;
+  @include squares;
+  background-image: url("../img/wranglershoes.jpg");
+}
+
+.meundies {
+  @include cover;
+  @include squares;
+  background-image: url("../img/meundiesundies.jpg");
+}
+
+.wellsfargo {
+  @include cover;
+  @include squares;
+  background-image: url("../img/ponysquare3.jpg");
+}
