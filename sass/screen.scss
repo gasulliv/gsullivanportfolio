@@ -16,7 +16,19 @@
   padding-top:30em;
 }
 
-h3 {
+html, body {
+  height:100%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h1, h2, h3 {
   @include header;
   font-weight:700;
 }
@@ -54,4 +66,10 @@ body {
   @include cover;
   @include squares;
   background-image: url("../img/ponysquare3.jpg");
+}
+
+.persona {
+  background: url("../img/persona-header.jpg") no-repeat;
+  @include cover;
+  height:30rem;
 }

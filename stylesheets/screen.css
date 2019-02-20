@@ -976,18 +976,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 19, ../sass/screen.scss */
-h3 {
+html, body {
+  height: 100%;
+}
+
+/* line 23, ../sass/screen.scss */
+h1 {
+  font-size: 2rem;
+}
+
+/* line 27, ../sass/screen.scss */
+h2 {
+  font-size: 1.5rem;
+}
+
+/* line 31, ../sass/screen.scss */
+h1, h2, h3 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700;
 }
 
-/* line 24, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 100;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .space-ray {
   background-size: cover;
   -moz-background-size: cover;
@@ -999,7 +1014,7 @@ body {
   background-image: url("../srhero.jpg");
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 .cccom {
   background-size: cover;
   -moz-background-size: cover;
@@ -1011,7 +1026,7 @@ body {
   background-image: url("../img/ccomsquareupdate.jpg");
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .wrangler {
   background-size: cover;
   -moz-background-size: cover;
@@ -1023,7 +1038,7 @@ body {
   background-image: url("../img/wranglershoes.jpg");
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .meundies {
   background-size: cover;
   -moz-background-size: cover;
@@ -1035,7 +1050,7 @@ body {
   background-image: url("../img/meundiesundies.jpg");
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .wellsfargo {
   background-size: cover;
   -moz-background-size: cover;
@@ -1045,4 +1060,14 @@ body {
   height: 100%;
   padding-top: 30em;
   background-image: url("../img/ponysquare3.jpg");
+}
+
+/* line 71, ../sass/screen.scss */
+.persona {
+  background: url("../img/persona-header.jpg") no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 30rem;
 }
