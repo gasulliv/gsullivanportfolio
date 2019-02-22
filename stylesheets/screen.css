@@ -145,63 +145,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* D */
 /*reactive display none*/
-@media (min-width: 991.98px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   /* line 227, ../sass/global.scss */
-  .displaynonemob {
+  .displaynonetablet {
     display: none !important;
   }
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 227, ../sass/global.scss */
+  /* line 233, ../sass/global.scss */
   .displaynonemob {
     display: none !important;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 227, ../sass/global.scss */
+  /* line 233, ../sass/global.scss */
   .displaynonemob {
     display: none !important;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 227, ../sass/global.scss */
+  /* line 233, ../sass/global.scss */
   .displaynonemob {
     display: none !important;
   }
 }
 
-@media (min-width: 991.98px) and (max-width: 768px) {
-  /* line 244, ../sass/global.scss */
-  .displaynonescreen {
-    display: inline !important;
-  }
-}
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 244, ../sass/global.scss */
+  /* line 247, ../sass/global.scss */
   .displaynonescreen {
     display: inline !important;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 244, ../sass/global.scss */
+  /* line 247, ../sass/global.scss */
   .displaynonescreen {
     display: inline !important;
   }
 }
 @media (min-width: 1200px) and (max-width: 1449.98px) {
-  /* line 244, ../sass/global.scss */
+  /* line 247, ../sass/global.scss */
   .displaynonescreen {
     display: none !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* line 244, ../sass/global.scss */
+  /* line 247, ../sass/global.scss */
   .displaynonescreen {
     display: none !important;
   }
 }
 @media (min-width: 1450px) and (max-width: 2048px) {
-  /* line 244, ../sass/global.scss */
+  /* line 247, ../sass/global.scss */
   .displaynonescreen {
     display: none !important;
   }
@@ -975,34 +970,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 html, body {
   height: 100%;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 h1 {
   font-size: 2rem;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 h2 {
   font-size: 1.5rem;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 h1, h2, h3 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 100;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .space-ray {
   background-size: cover;
   -moz-background-size: cover;
@@ -1014,7 +1009,7 @@ body {
   background-image: url("../srhero.jpg");
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .cccom {
   background-size: cover;
   -moz-background-size: cover;
@@ -1026,7 +1021,7 @@ body {
   background-image: url("../img/ccomsquareupdate.jpg");
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .wrangler {
   background-size: cover;
   -moz-background-size: cover;
@@ -1038,7 +1033,7 @@ body {
   background-image: url("../img/wranglershoes.jpg");
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 .meundies {
   background-size: cover;
   -moz-background-size: cover;
@@ -1050,7 +1045,7 @@ body {
   background-image: url("../img/meundiesundies.jpg");
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .wellsfargo {
   background-size: cover;
   -moz-background-size: cover;
@@ -1062,12 +1057,83 @@ body {
   background-image: url("../img/ponysquare3.jpg");
 }
 
-/* line 71, ../sass/screen.scss */
+/*portfolio pages*/
+/* line 98, ../sass/screen.scss */
 .persona {
-  background: url("../img/persona-header.jpg") no-repeat;
+  background: url("../img/stealyourheart/persona-header.jpg") no-repeat;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   height: 30rem;
+  background-position: center center;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 98, ../sass/screen.scss */
+  .persona {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 98, ../sass/screen.scss */
+  .persona {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 98, ../sass/screen.scss */
+  .persona {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 98, ../sass/screen.scss */
+  .persona {
+    height: 15rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 98, ../sass/screen.scss */
+  .persona {
+    height: 10rem;
+    background-position: top center;
+  }
+}
+
+/* line 104, ../sass/screen.scss */
+.desktop {
+  width: 80%;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 104, ../sass/screen.scss */
+  .desktop {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 104, ../sass/screen.scss */
+  .desktop {
+    width: 100%;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 104, ../sass/screen.scss */
+  .desktop {
+    width: 100%;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 104, ../sass/screen.scss */
+  .desktop {
+    width: 100%;
+  }
+}
+
+/* line 124, ../sass/screen.scss */
+.mobile {
+  width: 40%;
 }

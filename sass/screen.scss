@@ -16,6 +16,31 @@
   padding-top:30em;
 }
 
+@mixin pfolioheader {
+  height:30rem;
+  background-position: center center;
+  @include lg {
+    height:20rem;
+    background-position: top center;
+  }
+  @include med {
+    height:20rem;
+    background-position: top center;
+  }
+  @include sm {
+    height:20rem;
+    background-position: top center;
+  }
+  @include x-sm {
+    height:15rem;
+    background-position: top center;
+  }
+  @include xx-sm {
+    height:10rem;
+    background-position: top center;
+  }
+}
+
 html, body {
   height:100%;
 }
@@ -68,8 +93,34 @@ body {
   background-image: url("../img/ponysquare3.jpg");
 }
 
+/*portfolio pages*/
+
 .persona {
-  background: url("../img/persona-header.jpg") no-repeat;
+  background: url("../img/stealyourheart/persona-header.jpg") no-repeat;
   @include cover;
-  height:30rem;
+  @include pfolioheader;
+}
+
+.desktop {
+  width: 80%;
+
+  @include med {
+    width: 100%;
+  }
+
+  @include sm {
+    width: 100%;
+  }
+
+  @include x-sm {
+    width: 100%;
+  }
+
+  @include xx-sm {
+    width: 100%;
+  }
+}
+
+.mobile {
+  width: 40%;
 }

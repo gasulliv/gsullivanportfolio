@@ -63,7 +63,7 @@ $wht-10: #F0F3F4;
 }
 
 @mixin med {
-  @media (min-width: $med-max) and (max-width: $med-min) {
+  @media (min-width: $med-min) and (max-width: $med-max) {
     @content;
   }
 }
@@ -224,10 +224,13 @@ $wht-10: #F0F3F4;
 
 /* D */
 /*reactive display none*/
-.displaynonemob {
+.displaynonetablet {
   @include med {
     display:none !important;
   }
+}
+
+.displaynonemob {
 
   @include sm {
     display:none !important;
@@ -242,9 +245,6 @@ $wht-10: #F0F3F4;
 }
 
 .displaynonescreen {
-  @include med {
-    display:inline !important;
-  }
 
   @include sm {
     display:inline !important;
