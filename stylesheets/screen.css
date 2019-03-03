@@ -1058,82 +1058,214 @@ body {
 }
 
 /*portfolio pages*/
-/* line 98, ../sass/screen.scss */
-.persona {
+/* line 99, ../sass/screen.scss */
+#persona .persona {
   background: url("../img/stealyourheart/persona-header.jpg") no-repeat;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   height: 30rem;
-  background-position: center center;
+  background-position: top center;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* line 98, ../sass/screen.scss */
-  .persona {
+  /* line 99, ../sass/screen.scss */
+  #persona .persona {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 98, ../sass/screen.scss */
-  .persona {
+  /* line 99, ../sass/screen.scss */
+  #persona .persona {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 98, ../sass/screen.scss */
-  .persona {
+  /* line 99, ../sass/screen.scss */
+  #persona .persona {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 98, ../sass/screen.scss */
-  .persona {
+  /* line 99, ../sass/screen.scss */
+  #persona .persona {
     height: 15rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 98, ../sass/screen.scss */
-  .persona {
+  /* line 99, ../sass/screen.scss */
+  #persona .persona {
     height: 10rem;
     background-position: top center;
   }
 }
-
 /* line 104, ../sass/screen.scss */
-.desktop {
+#persona .desktop {
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* line 104, ../sass/screen.scss */
-  .desktop {
+  #persona .desktop {
     width: 100%;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   /* line 104, ../sass/screen.scss */
-  .desktop {
+  #persona .desktop {
     width: 100%;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
   /* line 104, ../sass/screen.scss */
-  .desktop {
+  #persona .desktop {
     width: 100%;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
   /* line 104, ../sass/screen.scss */
-  .desktop {
+  #persona .desktop {
     width: 100%;
   }
 }
-
-/* line 124, ../sass/screen.scss */
-.mobile {
+/* line 123, ../sass/screen.scss */
+#persona .mobile {
   width: 40%;
+}
+/* line 126, ../sass/screen.scss */
+#persona button {
+  margin-left: 1rem;
+  padding: 1.5em;
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+/* line 138, ../sass/screen.scss */
+#persona button a {
+  color: white;
+  text-decoration: none;
+}
+/* line 144, ../sass/screen.scss */
+#persona button:hover {
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+/* line 156, ../sass/screen.scss */
+#meundies .meundies {
+  background: url("../img/meundies/meundiesheader.jpg") no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 30rem;
+  background-position: top center;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 156, ../sass/screen.scss */
+  #meundies .meundies {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 156, ../sass/screen.scss */
+  #meundies .meundies {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 156, ../sass/screen.scss */
+  #meundies .meundies {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 156, ../sass/screen.scss */
+  #meundies .meundies {
+    height: 15rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 156, ../sass/screen.scss */
+  #meundies .meundies {
+    height: 10rem;
+    background-position: top center;
+  }
+}
+/* line 161, ../sass/screen.scss */
+#meundies .desktop {
+  width: 80%;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 161, ../sass/screen.scss */
+  #meundies .desktop {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 161, ../sass/screen.scss */
+  #meundies .desktop {
+    width: 100%;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 161, ../sass/screen.scss */
+  #meundies .desktop {
+    width: 100%;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 161, ../sass/screen.scss */
+  #meundies .desktop {
+    width: 100%;
+  }
+}
+/* line 180, ../sass/screen.scss */
+#meundies .mobile {
+  width: 40%;
+}
+/* line 183, ../sass/screen.scss */
+#meundies button {
+  margin-left: 1rem;
+  padding: 1.5em;
+  background-color: #21344f;
+  border: none;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+/* line 195, ../sass/screen.scss */
+#meundies button a {
+  color: white;
+  text-decoration: none;
+}
+/* line 201, ../sass/screen.scss */
+#meundies button:hover {
+  background-color: #74b1ea;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
 }

@@ -18,7 +18,7 @@
 
 @mixin pfolioheader {
   height:30rem;
-  background-position: center center;
+  background-position: top center;
   @include lg {
     height:20rem;
     background-position: top center;
@@ -95,32 +95,116 @@ body {
 
 /*portfolio pages*/
 
-.persona {
-  background: url("../img/stealyourheart/persona-header.jpg") no-repeat;
-  @include cover;
-  @include pfolioheader;
+#persona {
+  .persona {
+    background: url("../img/stealyourheart/persona-header.jpg") no-repeat;
+    @include cover;
+    @include pfolioheader;
+  }
+  .desktop {
+    width: 80%;
+
+    @include med {
+      width: 100%;
+    }
+
+    @include sm {
+      width: 100%;
+    }
+
+    @include x-sm {
+      width: 100%;
+    }
+
+    @include xx-sm {
+      width: 100%;
+    }
+  }
+  .mobile {
+    width: 40%;
+  }
+  button {
+    margin-left: 1rem;
+    padding:1.5em;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+    a {
+      color:white;
+      text-decoration: none;
+    }
+
+  }
+  button:hover {
+    background-color:black;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
 }
 
-.desktop {
-  width: 80%;
-
-  @include med {
-    width: 100%;
+#meundies {
+  .meundies {
+    background: url("../img/meundies/meundiesheader.jpg") no-repeat;
+    @include cover;
+    @include pfolioheader;
   }
+  .desktop {
+    width: 80%;
 
-  @include sm {
-    width: 100%;
+    @include med {
+      width: 100%;
+    }
+
+    @include sm {
+      width: 100%;
+    }
+
+    @include x-sm {
+      width: 100%;
+    }
+
+    @include xx-sm {
+      width: 100%;
+    }
   }
-
-  @include x-sm {
-    width: 100%;
+  .mobile {
+    width: 40%;
   }
+  button {
+    margin-left: 1rem;
+    padding:1.5em;
+    background-color: #21344f;
+    border: none;
+    color: white;
+    font-weight: bold;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
 
-  @include xx-sm {
-    width: 100%;
+    a {
+      color:white;
+      text-decoration: none;
+    }
+
   }
-}
-
-.mobile {
-  width: 40%;
+  button:hover {
+    background-color:#74b1ea;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
 }
