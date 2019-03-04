@@ -1018,7 +1018,7 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 30em;
-  background-image: url("../img/ccomsquareupdate.jpg");
+  background-image: url("../img/squares/ccomsquareupdate.jpg");
 }
 
 /* line 78, ../sass/screen.scss */
@@ -1030,7 +1030,7 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 30em;
-  background-image: url("../img/wranglershoes.jpg");
+  background-image: url("../img/squares/wranglershoes.jpg");
 }
 
 /* line 84, ../sass/screen.scss */
@@ -1042,7 +1042,7 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 30em;
-  background-image: url("../img/meundiesundies.jpg");
+  background-image: url("../squares/img/meundiesundies.jpg");
 }
 
 /* line 90, ../sass/screen.scss */
@@ -1054,7 +1054,7 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 30em;
-  background-image: url("../img/ponysquare3.jpg");
+  background-image: url("../img/squares/ponysquare3.jpg");
 }
 
 /*portfolio pages*/
@@ -1262,6 +1262,268 @@ body {
 /* line 201, ../sass/screen.scss */
 #meundies button:hover {
   background-color: #74b1ea;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+/* line 213, ../sass/screen.scss */
+#spaceraysale .spaceray-sale {
+  background: url("../img/spaceray-sale/header.jpg") no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 30rem;
+  background-position: top center;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 213, ../sass/screen.scss */
+  #spaceraysale .spaceray-sale {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 213, ../sass/screen.scss */
+  #spaceraysale .spaceray-sale {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 213, ../sass/screen.scss */
+  #spaceraysale .spaceray-sale {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 213, ../sass/screen.scss */
+  #spaceraysale .spaceray-sale {
+    height: 15rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 213, ../sass/screen.scss */
+  #spaceraysale .spaceray-sale {
+    height: 10rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 213, ../sass/screen.scss */
+  #spaceraysale .spaceray-sale {
+    height: 11rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 213, ../sass/screen.scss */
+  #spaceraysale .spaceray-sale {
+    height: 11rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 213, ../sass/screen.scss */
+  #spaceraysale .spaceray-sale {
+    height: 8rem;
+    background-position: top center;
+  }
+}
+/* line 230, ../sass/screen.scss */
+#spaceraysale .desktop {
+  width: 80%;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 230, ../sass/screen.scss */
+  #spaceraysale .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 230, ../sass/screen.scss */
+  #spaceraysale .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 230, ../sass/screen.scss */
+  #spaceraysale .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 230, ../sass/screen.scss */
+  #spaceraysale .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+/* line 253, ../sass/screen.scss */
+#spaceraysale .mobile {
+  width: 40%;
+}
+/* line 256, ../sass/screen.scss */
+#spaceraysale button {
+  margin-left: 1rem;
+  padding: 1.5em;
+  background-color: #ec3140;
+  border: none;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+/* line 268, ../sass/screen.scss */
+#spaceraysale button a {
+  color: white;
+  text-decoration: none;
+}
+/* line 274, ../sass/screen.scss */
+#spaceraysale button:hover {
+  background-color: #cc1928;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+/* line 285, ../sass/screen.scss */
+#google-ssl .google {
+  background: url("../img/spaceray-sale/header.jpg") no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 30rem;
+  background-position: top center;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 285, ../sass/screen.scss */
+  #google-ssl .google {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 285, ../sass/screen.scss */
+  #google-ssl .google {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 285, ../sass/screen.scss */
+  #google-ssl .google {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 285, ../sass/screen.scss */
+  #google-ssl .google {
+    height: 15rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 285, ../sass/screen.scss */
+  #google-ssl .google {
+    height: 10rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 285, ../sass/screen.scss */
+  #google-ssl .google {
+    height: 11rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 285, ../sass/screen.scss */
+  #google-ssl .google {
+    height: 11rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 285, ../sass/screen.scss */
+  #google-ssl .google {
+    height: 8rem;
+    background-position: top center;
+  }
+}
+/* line 302, ../sass/screen.scss */
+#google-ssl .desktop {
+  width: 80%;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 302, ../sass/screen.scss */
+  #google-ssl .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 302, ../sass/screen.scss */
+  #google-ssl .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 302, ../sass/screen.scss */
+  #google-ssl .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 302, ../sass/screen.scss */
+  #google-ssl .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+/* line 325, ../sass/screen.scss */
+#google-ssl .mobile {
+  width: 40%;
+}
+/* line 328, ../sass/screen.scss */
+#google-ssl button {
+  margin-left: 1rem;
+  padding: 1.5em;
+  background-color: #bebebe;
+  border: none;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+/* line 340, ../sass/screen.scss */
+#google-ssl button a {
+  color: white;
+  text-decoration: none;
+}
+/* line 346, ../sass/screen.scss */
+#google-ssl button:hover {
+  background-color: #898989;
   border: none;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;

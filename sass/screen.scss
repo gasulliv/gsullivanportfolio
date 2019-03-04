@@ -72,25 +72,25 @@ body {
 .cccom {
   @include cover;
   @include squares;
-  background-image: url("../img/ccomsquareupdate.jpg");
+  background-image: url("../img/squares/ccomsquareupdate.jpg");
 }
 
 .wrangler {
   @include cover;
   @include squares;
-  background-image: url("../img/wranglershoes.jpg");
+  background-image: url("../img/squares/wranglershoes.jpg");
 }
 
 .meundies {
   @include cover;
   @include squares;
-  background-image: url("../img/meundiesundies.jpg");
+  background-image: url("../squares/img/meundiesundies.jpg");
 }
 
 .wellsfargo {
   @include cover;
   @include squares;
-  background-image: url("../img/ponysquare3.jpg");
+  background-image: url("../img/squares/ponysquare3.jpg");
 }
 
 /*portfolio pages*/
@@ -200,6 +200,151 @@ body {
   }
   button:hover {
     background-color:#74b1ea;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+}
+
+#spaceraysale {
+  .spaceray-sale {
+    background: url("../img/spaceray-sale/header.jpg") no-repeat;
+    @include cover;
+    @include pfolioheader;
+    @include sm {
+      height:11rem;
+      background-position: top center;
+    }
+    @include x-sm {
+      height:11rem;
+      background-position: top center;
+    }
+    @include xx-sm {
+      height:8rem;
+      background-position: top center;
+    }
+  }
+  .desktop {
+    width: 80%;
+
+    @include med {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include x-sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include xx-sm {
+      width: 100%;
+      background-position: center center;
+    }
+  }
+  .mobile {
+    width: 40%;
+  }
+  button {
+    margin-left: 1rem;
+    padding:1.5em;
+    background-color: #ec3140;
+    border: none;
+    color: white;
+    font-weight: bold;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+    a {
+      color:white;
+      text-decoration: none;
+    }
+
+  }
+  button:hover {
+    background-color:#cc1928;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+}
+#google-ssl {
+  .google {
+    background: url("../img/spaceray-sale/header.jpg") no-repeat;
+    @include cover;
+    @include pfolioheader;
+    @include sm {
+      height:11rem;
+      background-position: top center;
+    }
+    @include x-sm {
+      height:11rem;
+      background-position: top center;
+    }
+    @include xx-sm {
+      height:8rem;
+      background-position: top center;
+    }
+  }
+  .desktop {
+    width: 80%;
+
+    @include med {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include x-sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include xx-sm {
+      width: 100%;
+      background-position: center center;
+    }
+  }
+  .mobile {
+    width: 40%;
+  }
+  button {
+    margin-left: 1rem;
+    padding:1.5em;
+    background-color: #bebebe;
+    border: none;
+    color: white;
+    font-weight: bold;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+    a {
+      color:white;
+      text-decoration: none;
+    }
+
+  }
+  button:hover {
+    background-color:#898989;
     border: none;
     cursor: pointer;
     -webkit-transition: background-color 0.5s ease-out;
