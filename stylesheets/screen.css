@@ -998,6 +998,11 @@ body {
 }
 
 /* line 66, ../sass/screen.scss */
+.navbar {
+  padding: 1.5rem 1rem;
+}
+
+/* line 70, ../sass/screen.scss */
 .space-ray {
   background-size: cover;
   -moz-background-size: cover;
@@ -1009,7 +1014,7 @@ body {
   background-image: url("../srhero.jpg");
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .cccom {
   background-size: cover;
   -moz-background-size: cover;
@@ -1021,7 +1026,7 @@ body {
   background-image: url("../img/squares/ccomsquareupdate.jpg");
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .wrangler {
   background-size: cover;
   -moz-background-size: cover;
@@ -1033,7 +1038,7 @@ body {
   background-image: url("../img/squares/wranglershoes.jpg");
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .meundies {
   background-size: cover;
   -moz-background-size: cover;
@@ -1045,7 +1050,7 @@ body {
   background-image: url("../squares/img/meundiesundies.jpg");
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .wellsfargo {
   background-size: cover;
   -moz-background-size: cover;
@@ -1058,7 +1063,7 @@ body {
 }
 
 /*portfolio pages*/
-/* line 99, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 #persona .persona {
   background: url("../img/stealyourheart/persona-header.jpg") no-repeat;
   background-size: cover;
@@ -1069,73 +1074,73 @@ body {
   background-position: top center;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* line 99, ../sass/screen.scss */
+  /* line 103, ../sass/screen.scss */
   #persona .persona {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 99, ../sass/screen.scss */
+  /* line 103, ../sass/screen.scss */
   #persona .persona {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 99, ../sass/screen.scss */
+  /* line 103, ../sass/screen.scss */
   #persona .persona {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 99, ../sass/screen.scss */
+  /* line 103, ../sass/screen.scss */
   #persona .persona {
     height: 15rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 99, ../sass/screen.scss */
+  /* line 103, ../sass/screen.scss */
   #persona .persona {
     height: 10rem;
     background-position: top center;
   }
 }
-/* line 104, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 #persona .desktop {
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 104, ../sass/screen.scss */
+  /* line 108, ../sass/screen.scss */
   #persona .desktop {
     width: 100%;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 104, ../sass/screen.scss */
+  /* line 108, ../sass/screen.scss */
   #persona .desktop {
     width: 100%;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 104, ../sass/screen.scss */
+  /* line 108, ../sass/screen.scss */
   #persona .desktop {
     width: 100%;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 104, ../sass/screen.scss */
+  /* line 108, ../sass/screen.scss */
   #persona .desktop {
     width: 100%;
   }
 }
-/* line 123, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 #persona .mobile {
   width: 40%;
 }
-/* line 126, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 #persona button {
   margin-left: 1rem;
   padding: 1.5em;
@@ -1148,12 +1153,12 @@ body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 138, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 #persona button a {
   color: white;
   text-decoration: none;
 }
-/* line 144, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 #persona button:hover {
   background-color: black;
   border: none;
@@ -1164,7 +1169,7 @@ body {
   transition: background-color 0.5s ease-out;
 }
 
-/* line 156, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 #meundies .meundies {
   background: url("../img/meundies/meundiesheader.jpg") no-repeat;
   background-size: cover;
@@ -1175,73 +1180,73 @@ body {
   background-position: top center;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* line 156, ../sass/screen.scss */
+  /* line 160, ../sass/screen.scss */
   #meundies .meundies {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 156, ../sass/screen.scss */
+  /* line 160, ../sass/screen.scss */
   #meundies .meundies {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 156, ../sass/screen.scss */
+  /* line 160, ../sass/screen.scss */
   #meundies .meundies {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 156, ../sass/screen.scss */
+  /* line 160, ../sass/screen.scss */
   #meundies .meundies {
     height: 15rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 156, ../sass/screen.scss */
+  /* line 160, ../sass/screen.scss */
   #meundies .meundies {
     height: 10rem;
     background-position: top center;
   }
 }
-/* line 161, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 #meundies .desktop {
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 161, ../sass/screen.scss */
+  /* line 165, ../sass/screen.scss */
   #meundies .desktop {
     width: 100%;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 161, ../sass/screen.scss */
+  /* line 165, ../sass/screen.scss */
   #meundies .desktop {
     width: 100%;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 161, ../sass/screen.scss */
+  /* line 165, ../sass/screen.scss */
   #meundies .desktop {
     width: 100%;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 161, ../sass/screen.scss */
+  /* line 165, ../sass/screen.scss */
   #meundies .desktop {
     width: 100%;
   }
 }
-/* line 180, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 #meundies .mobile {
   width: 40%;
 }
-/* line 183, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 #meundies button {
   margin-left: 1rem;
   padding: 1.5em;
@@ -1254,12 +1259,12 @@ body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 195, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 #meundies button a {
   color: white;
   text-decoration: none;
 }
-/* line 201, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 #meundies button:hover {
   background-color: #74b1ea;
   border: none;
@@ -1270,7 +1275,7 @@ body {
   transition: background-color 0.5s ease-out;
 }
 
-/* line 213, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 #spaceraysale .spaceray-sale {
   background: url("../img/spaceray-sale/header.jpg") no-repeat;
   background-size: cover;
@@ -1281,98 +1286,98 @@ body {
   background-position: top center;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* line 213, ../sass/screen.scss */
+  /* line 217, ../sass/screen.scss */
   #spaceraysale .spaceray-sale {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 213, ../sass/screen.scss */
+  /* line 217, ../sass/screen.scss */
   #spaceraysale .spaceray-sale {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 213, ../sass/screen.scss */
+  /* line 217, ../sass/screen.scss */
   #spaceraysale .spaceray-sale {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 213, ../sass/screen.scss */
+  /* line 217, ../sass/screen.scss */
   #spaceraysale .spaceray-sale {
     height: 15rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 213, ../sass/screen.scss */
+  /* line 217, ../sass/screen.scss */
   #spaceraysale .spaceray-sale {
     height: 10rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 213, ../sass/screen.scss */
+  /* line 217, ../sass/screen.scss */
   #spaceraysale .spaceray-sale {
     height: 11rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 213, ../sass/screen.scss */
+  /* line 217, ../sass/screen.scss */
   #spaceraysale .spaceray-sale {
     height: 11rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 213, ../sass/screen.scss */
+  /* line 217, ../sass/screen.scss */
   #spaceraysale .spaceray-sale {
     height: 8rem;
     background-position: top center;
   }
 }
-/* line 230, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 #spaceraysale .desktop {
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 230, ../sass/screen.scss */
+  /* line 234, ../sass/screen.scss */
   #spaceraysale .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 230, ../sass/screen.scss */
+  /* line 234, ../sass/screen.scss */
   #spaceraysale .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 230, ../sass/screen.scss */
+  /* line 234, ../sass/screen.scss */
   #spaceraysale .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 230, ../sass/screen.scss */
+  /* line 234, ../sass/screen.scss */
   #spaceraysale .desktop {
     width: 100%;
     background-position: center center;
   }
 }
-/* line 253, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 #spaceraysale .mobile {
   width: 40%;
 }
-/* line 256, ../sass/screen.scss */
+/* line 260, ../sass/screen.scss */
 #spaceraysale button {
   margin-left: 1rem;
   padding: 1.5em;
@@ -1385,12 +1390,12 @@ body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 268, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 #spaceraysale button a {
   color: white;
   text-decoration: none;
 }
-/* line 274, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 #spaceraysale button:hover {
   background-color: #cc1928;
   border: none;
@@ -1401,7 +1406,7 @@ body {
   transition: background-color 0.5s ease-out;
 }
 
-/* line 285, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 #google-ssl .google {
   background: url("../img/google-ssl/header.jpg") no-repeat;
   background-size: cover;
@@ -1412,98 +1417,98 @@ body {
   background-position: top center;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* line 285, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   #google-ssl .google {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 285, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   #google-ssl .google {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 285, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   #google-ssl .google {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 285, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   #google-ssl .google {
     height: 15rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 285, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   #google-ssl .google {
     height: 10rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 285, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   #google-ssl .google {
     height: 11rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 285, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   #google-ssl .google {
     height: 11rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 285, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   #google-ssl .google {
     height: 8rem;
     background-position: top center;
   }
 }
-/* line 302, ../sass/screen.scss */
+/* line 306, ../sass/screen.scss */
 #google-ssl .desktop {
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 302, ../sass/screen.scss */
+  /* line 306, ../sass/screen.scss */
   #google-ssl .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 302, ../sass/screen.scss */
+  /* line 306, ../sass/screen.scss */
   #google-ssl .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 302, ../sass/screen.scss */
+  /* line 306, ../sass/screen.scss */
   #google-ssl .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 302, ../sass/screen.scss */
+  /* line 306, ../sass/screen.scss */
   #google-ssl .desktop {
     width: 100%;
     background-position: center center;
   }
 }
-/* line 325, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 #google-ssl .mobile {
   width: 40%;
 }
-/* line 328, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
 #google-ssl button {
   margin-left: 1rem;
   padding: 1.5em;
@@ -1516,12 +1521,12 @@ body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 340, ../sass/screen.scss */
+/* line 344, ../sass/screen.scss */
 #google-ssl button a {
   color: white;
   text-decoration: none;
 }
-/* line 346, ../sass/screen.scss */
+/* line 350, ../sass/screen.scss */
 #google-ssl button:hover {
   background-color: #898989;
   border: none;
@@ -1532,7 +1537,7 @@ body {
   transition: background-color 0.5s ease-out;
 }
 
-/* line 357, ../sass/screen.scss */
+/* line 361, ../sass/screen.scss */
 #crownsguard .crownsguard {
   background: url("../img/crownsguard/header.jpg") no-repeat;
   background-size: cover;
@@ -1543,98 +1548,98 @@ body {
   background-position: top center;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* line 357, ../sass/screen.scss */
+  /* line 361, ../sass/screen.scss */
   #crownsguard .crownsguard {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 357, ../sass/screen.scss */
+  /* line 361, ../sass/screen.scss */
   #crownsguard .crownsguard {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 357, ../sass/screen.scss */
+  /* line 361, ../sass/screen.scss */
   #crownsguard .crownsguard {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 357, ../sass/screen.scss */
+  /* line 361, ../sass/screen.scss */
   #crownsguard .crownsguard {
     height: 15rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 357, ../sass/screen.scss */
+  /* line 361, ../sass/screen.scss */
   #crownsguard .crownsguard {
     height: 10rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 357, ../sass/screen.scss */
+  /* line 361, ../sass/screen.scss */
   #crownsguard .crownsguard {
     height: 11rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 357, ../sass/screen.scss */
+  /* line 361, ../sass/screen.scss */
   #crownsguard .crownsguard {
     height: 11rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 357, ../sass/screen.scss */
+  /* line 361, ../sass/screen.scss */
   #crownsguard .crownsguard {
     height: 8rem;
     background-position: top center;
   }
 }
-/* line 374, ../sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 #crownsguard .desktop {
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 374, ../sass/screen.scss */
+  /* line 378, ../sass/screen.scss */
   #crownsguard .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 374, ../sass/screen.scss */
+  /* line 378, ../sass/screen.scss */
   #crownsguard .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 374, ../sass/screen.scss */
+  /* line 378, ../sass/screen.scss */
   #crownsguard .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 374, ../sass/screen.scss */
+  /* line 378, ../sass/screen.scss */
   #crownsguard .desktop {
     width: 100%;
     background-position: center center;
   }
 }
-/* line 397, ../sass/screen.scss */
+/* line 401, ../sass/screen.scss */
 #crownsguard .mobile {
   width: 40%;
 }
-/* line 400, ../sass/screen.scss */
+/* line 404, ../sass/screen.scss */
 #crownsguard button {
   margin-left: 1rem;
   padding: 1.5em;
@@ -1647,12 +1652,12 @@ body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 412, ../sass/screen.scss */
+/* line 416, ../sass/screen.scss */
 #crownsguard button a {
   color: white;
   text-decoration: none;
 }
-/* line 418, ../sass/screen.scss */
+/* line 422, ../sass/screen.scss */
 #crownsguard button:hover {
   background-color: #2e2f2f;
   border: none;
@@ -1663,7 +1668,7 @@ body {
   transition: background-color 0.5s ease-out;
 }
 
-/* line 429, ../sass/screen.scss */
+/* line 433, ../sass/screen.scss */
 #spacerayweb .spacerayweb {
   background: url("../img/spaceraywebsite/header.jpg") no-repeat;
   background-size: cover;
@@ -1674,77 +1679,77 @@ body {
   background-position: top center;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* line 429, ../sass/screen.scss */
+  /* line 433, ../sass/screen.scss */
   #spacerayweb .spacerayweb {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 429, ../sass/screen.scss */
+  /* line 433, ../sass/screen.scss */
   #spacerayweb .spacerayweb {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 429, ../sass/screen.scss */
+  /* line 433, ../sass/screen.scss */
   #spacerayweb .spacerayweb {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 429, ../sass/screen.scss */
+  /* line 433, ../sass/screen.scss */
   #spacerayweb .spacerayweb {
     height: 15rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 429, ../sass/screen.scss */
+  /* line 433, ../sass/screen.scss */
   #spacerayweb .spacerayweb {
     height: 10rem;
     background-position: top center;
   }
 }
-/* line 434, ../sass/screen.scss */
+/* line 438, ../sass/screen.scss */
 #spacerayweb .desktop {
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 434, ../sass/screen.scss */
+  /* line 438, ../sass/screen.scss */
   #spacerayweb .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 434, ../sass/screen.scss */
+  /* line 438, ../sass/screen.scss */
   #spacerayweb .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 434, ../sass/screen.scss */
+  /* line 438, ../sass/screen.scss */
   #spacerayweb .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 434, ../sass/screen.scss */
+  /* line 438, ../sass/screen.scss */
   #spacerayweb .desktop {
     width: 100%;
     background-position: center center;
   }
 }
-/* line 457, ../sass/screen.scss */
+/* line 461, ../sass/screen.scss */
 #spacerayweb .mobile {
   width: 40%;
 }
-/* line 460, ../sass/screen.scss */
+/* line 464, ../sass/screen.scss */
 #spacerayweb button {
   margin-left: 1rem;
   padding: 1.5em;
@@ -1757,12 +1762,12 @@ body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 472, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 #spacerayweb button a {
   color: white;
   text-decoration: none;
 }
-/* line 478, ../sass/screen.scss */
+/* line 482, ../sass/screen.scss */
 #spacerayweb button:hover {
   background-color: #af3629;
   border: none;
