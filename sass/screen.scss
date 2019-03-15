@@ -611,3 +611,63 @@ p {line-height: 1.5rem;}
     transition: background-color 0.5s ease-out;
   }
 }
+#mabari {
+  .mabari {
+    background: url("../img/mabari/header.jpg") no-repeat;
+    @include cover;
+    @include pfolioheader;
+  }
+  .desktop {
+    width: 80%;
+
+    @include med {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include x-sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include xx-sm {
+      width: 100%;
+      background-position: center center;
+    }
+  }
+  .mobile {
+    width: 40%;
+  }
+  button {
+    margin-left: 1rem;
+    padding:1.5em;
+    background-color: #5a7b72;
+    border: none;
+    color: white;
+    font-weight: bold;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+    a {
+      color:white;
+      text-decoration: none;
+    }
+
+  }
+  button:hover {
+    background-color:#2a3936;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+}
