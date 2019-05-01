@@ -1551,6 +1551,7 @@ p {
   -webkit-background-size: cover;
   height: 30rem;
   background-position: top center;
+  background-position: center center !important;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   /* line 363, ../sass/screen.scss */
@@ -1608,43 +1609,43 @@ p {
     background-position: top center;
   }
 }
-/* line 380, ../sass/screen.scss */
+/* line 381, ../sass/screen.scss */
 #crownsguard .desktop {
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 380, ../sass/screen.scss */
+  /* line 381, ../sass/screen.scss */
   #crownsguard .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 380, ../sass/screen.scss */
+  /* line 381, ../sass/screen.scss */
   #crownsguard .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 380, ../sass/screen.scss */
+  /* line 381, ../sass/screen.scss */
   #crownsguard .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 380, ../sass/screen.scss */
+  /* line 381, ../sass/screen.scss */
   #crownsguard .desktop {
     width: 100%;
     background-position: center center;
   }
 }
-/* line 403, ../sass/screen.scss */
+/* line 404, ../sass/screen.scss */
 #crownsguard .mobile {
   width: 40%;
 }
-/* line 406, ../sass/screen.scss */
+/* line 407, ../sass/screen.scss */
 #crownsguard button {
   margin-left: 1rem;
   padding: 1.5em;
@@ -1657,12 +1658,12 @@ p {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 418, ../sass/screen.scss */
+/* line 419, ../sass/screen.scss */
 #crownsguard button a {
   color: white;
   text-decoration: none;
 }
-/* line 424, ../sass/screen.scss */
+/* line 425, ../sass/screen.scss */
 #crownsguard button:hover {
   background-color: #2e2f2f;
   border: none;
@@ -1673,7 +1674,7 @@ p {
   transition: background-color 0.5s ease-out;
 }
 
-/* line 435, ../sass/screen.scss */
+/* line 436, ../sass/screen.scss */
 #spacerayweb .spacerayweb {
   background: url("../img/spaceraywebsite/header.jpg") no-repeat;
   background-size: cover;
@@ -1684,77 +1685,77 @@ p {
   background-position: top center;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* line 435, ../sass/screen.scss */
+  /* line 436, ../sass/screen.scss */
   #spacerayweb .spacerayweb {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 435, ../sass/screen.scss */
+  /* line 436, ../sass/screen.scss */
   #spacerayweb .spacerayweb {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 435, ../sass/screen.scss */
+  /* line 436, ../sass/screen.scss */
   #spacerayweb .spacerayweb {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 435, ../sass/screen.scss */
+  /* line 436, ../sass/screen.scss */
   #spacerayweb .spacerayweb {
     height: 15rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 435, ../sass/screen.scss */
+  /* line 436, ../sass/screen.scss */
   #spacerayweb .spacerayweb {
     height: 10rem;
     background-position: top center;
   }
 }
-/* line 440, ../sass/screen.scss */
+/* line 441, ../sass/screen.scss */
 #spacerayweb .desktop {
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 440, ../sass/screen.scss */
+  /* line 441, ../sass/screen.scss */
   #spacerayweb .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 440, ../sass/screen.scss */
+  /* line 441, ../sass/screen.scss */
   #spacerayweb .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 440, ../sass/screen.scss */
+  /* line 441, ../sass/screen.scss */
   #spacerayweb .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 440, ../sass/screen.scss */
+  /* line 441, ../sass/screen.scss */
   #spacerayweb .desktop {
     width: 100%;
     background-position: center center;
   }
 }
-/* line 463, ../sass/screen.scss */
+/* line 464, ../sass/screen.scss */
 #spacerayweb .mobile {
   width: 40%;
 }
-/* line 466, ../sass/screen.scss */
+/* line 467, ../sass/screen.scss */
 #spacerayweb button {
   margin-left: 1rem;
   padding: 1.5em;
@@ -1767,12 +1768,12 @@ p {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 478, ../sass/screen.scss */
+/* line 479, ../sass/screen.scss */
 #spacerayweb button a {
   color: white;
   text-decoration: none;
 }
-/* line 484, ../sass/screen.scss */
+/* line 485, ../sass/screen.scss */
 #spacerayweb button:hover {
   background-color: #af3629;
   border: none;
@@ -1783,7 +1784,7 @@ p {
   transition: background-color 0.5s ease-out;
 }
 
-/* line 495, ../sass/screen.scss */
+/* line 496, ../sass/screen.scss */
 #anya .anya {
   background: url("../img/anya/header.jpg") no-repeat;
   background-size: cover;
@@ -1794,77 +1795,77 @@ p {
   background-position: top center;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* line 495, ../sass/screen.scss */
+  /* line 496, ../sass/screen.scss */
   #anya .anya {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 495, ../sass/screen.scss */
+  /* line 496, ../sass/screen.scss */
   #anya .anya {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 495, ../sass/screen.scss */
+  /* line 496, ../sass/screen.scss */
   #anya .anya {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 495, ../sass/screen.scss */
+  /* line 496, ../sass/screen.scss */
   #anya .anya {
     height: 15rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 495, ../sass/screen.scss */
+  /* line 496, ../sass/screen.scss */
   #anya .anya {
     height: 10rem;
     background-position: top center;
   }
 }
-/* line 500, ../sass/screen.scss */
+/* line 501, ../sass/screen.scss */
 #anya .desktop {
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 500, ../sass/screen.scss */
+  /* line 501, ../sass/screen.scss */
   #anya .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 500, ../sass/screen.scss */
+  /* line 501, ../sass/screen.scss */
   #anya .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 500, ../sass/screen.scss */
+  /* line 501, ../sass/screen.scss */
   #anya .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 500, ../sass/screen.scss */
+  /* line 501, ../sass/screen.scss */
   #anya .desktop {
     width: 100%;
     background-position: center center;
   }
 }
-/* line 523, ../sass/screen.scss */
+/* line 524, ../sass/screen.scss */
 #anya .mobile {
   width: 40%;
 }
-/* line 526, ../sass/screen.scss */
+/* line 527, ../sass/screen.scss */
 #anya button {
   margin-left: 1rem;
   padding: 1.5em;
@@ -1877,12 +1878,12 @@ p {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 538, ../sass/screen.scss */
+/* line 539, ../sass/screen.scss */
 #anya button a {
   color: white;
   text-decoration: none;
 }
-/* line 544, ../sass/screen.scss */
+/* line 545, ../sass/screen.scss */
 #anya button:hover {
   background-color: #4a2603;
   border: none;
@@ -1893,7 +1894,117 @@ p {
   transition: background-color 0.5s ease-out;
 }
 
-/* line 555, ../sass/screen.scss */
+/* line 557, ../sass/screen.scss */
+#cccomgraphics .graphics {
+  background: url("../img/cccom-graphics/header.jpg") no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 30rem;
+  background-position: top center;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 557, ../sass/screen.scss */
+  #cccomgraphics .graphics {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 557, ../sass/screen.scss */
+  #cccomgraphics .graphics {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 557, ../sass/screen.scss */
+  #cccomgraphics .graphics {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 557, ../sass/screen.scss */
+  #cccomgraphics .graphics {
+    height: 15rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 557, ../sass/screen.scss */
+  #cccomgraphics .graphics {
+    height: 10rem;
+    background-position: top center;
+  }
+}
+/* line 562, ../sass/screen.scss */
+#cccomgraphics .desktop {
+  width: 80%;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 562, ../sass/screen.scss */
+  #cccomgraphics .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 562, ../sass/screen.scss */
+  #cccomgraphics .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 562, ../sass/screen.scss */
+  #cccomgraphics .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 562, ../sass/screen.scss */
+  #cccomgraphics .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+/* line 585, ../sass/screen.scss */
+#cccomgraphics .mobile {
+  width: 40%;
+}
+/* line 588, ../sass/screen.scss */
+#cccomgraphics button {
+  margin-left: 1rem;
+  padding: 1.5em;
+  background-color: #6a301b;
+  border: none;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+/* line 600, ../sass/screen.scss */
+#cccomgraphics button a {
+  color: white;
+  text-decoration: none;
+}
+/* line 606, ../sass/screen.scss */
+#cccomgraphics button:hover {
+  background-color: #4a2603;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+/* line 618, ../sass/screen.scss */
 #cccomweb .cccomweb {
   background: url("../img/cccomwebsite/header.jpg") no-repeat;
   background-size: cover;
@@ -1904,77 +2015,77 @@ p {
   background-position: top center;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* line 555, ../sass/screen.scss */
+  /* line 618, ../sass/screen.scss */
   #cccomweb .cccomweb {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 555, ../sass/screen.scss */
+  /* line 618, ../sass/screen.scss */
   #cccomweb .cccomweb {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 555, ../sass/screen.scss */
+  /* line 618, ../sass/screen.scss */
   #cccomweb .cccomweb {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 555, ../sass/screen.scss */
+  /* line 618, ../sass/screen.scss */
   #cccomweb .cccomweb {
     height: 15rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 555, ../sass/screen.scss */
+  /* line 618, ../sass/screen.scss */
   #cccomweb .cccomweb {
     height: 10rem;
     background-position: top center;
   }
 }
-/* line 560, ../sass/screen.scss */
+/* line 623, ../sass/screen.scss */
 #cccomweb .desktop {
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 560, ../sass/screen.scss */
+  /* line 623, ../sass/screen.scss */
   #cccomweb .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 560, ../sass/screen.scss */
+  /* line 623, ../sass/screen.scss */
   #cccomweb .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 560, ../sass/screen.scss */
+  /* line 623, ../sass/screen.scss */
   #cccomweb .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 560, ../sass/screen.scss */
+  /* line 623, ../sass/screen.scss */
   #cccomweb .desktop {
     width: 100%;
     background-position: center center;
   }
 }
-/* line 583, ../sass/screen.scss */
+/* line 646, ../sass/screen.scss */
 #cccomweb .mobile {
   width: 40%;
 }
-/* line 586, ../sass/screen.scss */
+/* line 649, ../sass/screen.scss */
 #cccomweb button {
   margin-left: 1rem;
   padding: 1.5em;
@@ -1987,12 +2098,12 @@ p {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 598, ../sass/screen.scss */
+/* line 661, ../sass/screen.scss */
 #cccomweb button a {
   color: white;
   text-decoration: none;
 }
-/* line 604, ../sass/screen.scss */
+/* line 667, ../sass/screen.scss */
 #cccomweb button:hover {
   background-color: #ad3130;
   border: none;
@@ -2003,7 +2114,7 @@ p {
   transition: background-color 0.5s ease-out;
 }
 
-/* line 615, ../sass/screen.scss */
+/* line 678, ../sass/screen.scss */
 #mabari .mabari {
   background: url("../img/mabari/header.jpg") no-repeat;
   background-size: cover;
@@ -2014,77 +2125,77 @@ p {
   background-position: top center;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* line 615, ../sass/screen.scss */
+  /* line 678, ../sass/screen.scss */
   #mabari .mabari {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 615, ../sass/screen.scss */
+  /* line 678, ../sass/screen.scss */
   #mabari .mabari {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 615, ../sass/screen.scss */
+  /* line 678, ../sass/screen.scss */
   #mabari .mabari {
     height: 20rem;
     background-position: top center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 615, ../sass/screen.scss */
+  /* line 678, ../sass/screen.scss */
   #mabari .mabari {
     height: 15rem;
     background-position: top center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 615, ../sass/screen.scss */
+  /* line 678, ../sass/screen.scss */
   #mabari .mabari {
     height: 10rem;
     background-position: top center;
   }
 }
-/* line 620, ../sass/screen.scss */
+/* line 683, ../sass/screen.scss */
 #mabari .desktop {
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* line 620, ../sass/screen.scss */
+  /* line 683, ../sass/screen.scss */
   #mabari .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* line 620, ../sass/screen.scss */
+  /* line 683, ../sass/screen.scss */
   #mabari .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 575.98px) and (min-width: 375px) {
-  /* line 620, ../sass/screen.scss */
+  /* line 683, ../sass/screen.scss */
   #mabari .desktop {
     width: 100%;
     background-position: center center;
   }
 }
 @media (max-width: 374.98px) and (min-width: 320px) {
-  /* line 620, ../sass/screen.scss */
+  /* line 683, ../sass/screen.scss */
   #mabari .desktop {
     width: 100%;
     background-position: center center;
   }
 }
-/* line 643, ../sass/screen.scss */
+/* line 706, ../sass/screen.scss */
 #mabari .mobile {
   width: 40%;
 }
-/* line 646, ../sass/screen.scss */
+/* line 709, ../sass/screen.scss */
 #mabari button {
   margin-left: 1rem;
   padding: 1.5em;
@@ -2097,14 +2208,344 @@ p {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 658, ../sass/screen.scss */
+/* line 721, ../sass/screen.scss */
 #mabari button a {
   color: white;
   text-decoration: none;
 }
-/* line 664, ../sass/screen.scss */
+/* line 727, ../sass/screen.scss */
 #mabari button:hover {
   background-color: #2a3936;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+/* line 739, ../sass/screen.scss */
+#forklift .mabari {
+  background: url("../img/forkliftpro/header.jpg") no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 30rem;
+  background-position: top center;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 739, ../sass/screen.scss */
+  #forklift .mabari {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 739, ../sass/screen.scss */
+  #forklift .mabari {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 739, ../sass/screen.scss */
+  #forklift .mabari {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 739, ../sass/screen.scss */
+  #forklift .mabari {
+    height: 15rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 739, ../sass/screen.scss */
+  #forklift .mabari {
+    height: 10rem;
+    background-position: top center;
+  }
+}
+/* line 744, ../sass/screen.scss */
+#forklift .desktop {
+  width: 80%;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 744, ../sass/screen.scss */
+  #forklift .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 744, ../sass/screen.scss */
+  #forklift .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 744, ../sass/screen.scss */
+  #forklift .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 744, ../sass/screen.scss */
+  #forklift .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+/* line 767, ../sass/screen.scss */
+#forklift .mobile {
+  width: 40%;
+}
+/* line 770, ../sass/screen.scss */
+#forklift button {
+  margin-left: 1rem;
+  padding: 1.5em;
+  background-color: #e0be53;
+  border: none;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+/* line 782, ../sass/screen.scss */
+#forklift button a {
+  color: white;
+  text-decoration: none;
+}
+/* line 788, ../sass/screen.scss */
+#forklift button:hover {
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+/* line 800, ../sass/screen.scss */
+#cpd .cpd {
+  background: url("../img/CPD-Graphics/header.jpg") no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 30rem;
+  background-position: top center;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 800, ../sass/screen.scss */
+  #cpd .cpd {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 800, ../sass/screen.scss */
+  #cpd .cpd {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 800, ../sass/screen.scss */
+  #cpd .cpd {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 800, ../sass/screen.scss */
+  #cpd .cpd {
+    height: 15rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 800, ../sass/screen.scss */
+  #cpd .cpd {
+    height: 10rem;
+    background-position: top center;
+  }
+}
+/* line 805, ../sass/screen.scss */
+#cpd .desktop {
+  width: 80%;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 805, ../sass/screen.scss */
+  #cpd .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 805, ../sass/screen.scss */
+  #cpd .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 805, ../sass/screen.scss */
+  #cpd .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 805, ../sass/screen.scss */
+  #cpd .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+/* line 828, ../sass/screen.scss */
+#cpd .mobile {
+  width: 40%;
+}
+/* line 831, ../sass/screen.scss */
+#cpd button {
+  margin-left: 1rem;
+  padding: 1.5em;
+  background-color: #e0be53;
+  border: none;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+/* line 843, ../sass/screen.scss */
+#cpd button a {
+  color: white;
+  text-decoration: none;
+}
+/* line 849, ../sass/screen.scss */
+#cpd button:hover {
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+/* line 861, ../sass/screen.scss */
+#carolinabeertemple .cbt {
+  background: url("../img/carolinabeertemple/header.jpg") no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  height: 30rem;
+  background-position: top center;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* line 861, ../sass/screen.scss */
+  #carolinabeertemple .cbt {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 861, ../sass/screen.scss */
+  #carolinabeertemple .cbt {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 861, ../sass/screen.scss */
+  #carolinabeertemple .cbt {
+    height: 20rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 861, ../sass/screen.scss */
+  #carolinabeertemple .cbt {
+    height: 15rem;
+    background-position: top center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 861, ../sass/screen.scss */
+  #carolinabeertemple .cbt {
+    height: 10rem;
+    background-position: top center;
+  }
+}
+/* line 866, ../sass/screen.scss */
+#carolinabeertemple .desktop {
+  width: 80%;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* line 866, ../sass/screen.scss */
+  #carolinabeertemple .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* line 866, ../sass/screen.scss */
+  #carolinabeertemple .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (max-width: 575.98px) and (min-width: 375px) {
+  /* line 866, ../sass/screen.scss */
+  #carolinabeertemple .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+@media (max-width: 374.98px) and (min-width: 320px) {
+  /* line 866, ../sass/screen.scss */
+  #carolinabeertemple .desktop {
+    width: 100%;
+    background-position: center center;
+  }
+}
+/* line 889, ../sass/screen.scss */
+#carolinabeertemple .mobile {
+  width: 40%;
+}
+/* line 892, ../sass/screen.scss */
+#carolinabeertemple button {
+  margin-left: 1rem;
+  padding: 1.5em;
+  background-color: #e0be53;
+  border: none;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+/* line 904, ../sass/screen.scss */
+#carolinabeertemple button a {
+  color: white;
+  text-decoration: none;
+}
+/* line 910, ../sass/screen.scss */
+#carolinabeertemple button:hover {
+  background-color: #000;
   border: none;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;

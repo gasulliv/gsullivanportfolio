@@ -19,10 +19,10 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,700" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../stylesheets/ihover.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="../stylesheets//ihover.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
     <!-- Custom styles for this template -->
-    <link href="../stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="../stylesheets//screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
@@ -35,8 +35,8 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="../index.html">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="visualdesign.html">Visual Design</a>
-          <a class="nav-item nav-link" href="websitedesign.html">CMS Design and Implementation</a>
+          <a class="nav-item nav-link" href="#">Visual Design</a>
+          <a class="nav-item nav-link" href="websitedesign.html">Website Design</a>
           <a class="nav-item nav-link" href="emaildesign.html">Email Design</a>
         </div>
       </div>
@@ -45,44 +45,64 @@
     <main role="main" class="container-fluid pl-5 pr-5 pt-5">
       <div class="row">
         <div class="col-md-6 pt-5">
-          <div class="ih-item square effect3 top_to_bottom"><a href="websites/cccomwebsite.html">
-              <div class="img"><img src="../img/squares/ccomsquareupdate.jpg" alt="img"></div>
+          <div class="ih-item square effect3 top_to_bottom"><a href="visualdesign/mabari.html">
+              <div class="img"><img src="../img/squares/mabarisquare.jpg" alt="img"></div>
               <div class="info">
-                <h3>CC Communications</h3>
-              <p>HTML5, Bootstrap 4, CSS, Wordpress, Photoshop CC (2019), Illustrator</p>
+                <h3>Mabari V 1.0 (PSD)</h3>
+                <p>Live Site to include HTML5, Bootstrap 4, SASS, Photoshop CC, JS (2019)</p>
               </div></a>
           </div>
         </div>
         <div class="col-md-6 pt-5">
-          <div class="ih-item square effect3 top_to_bottom"><a href="websites/spaceraywebsite.html">
-              <div class="img"><img src="../img/squares/spaceraywebsquare.jpg" alt="img"></div>
+          <div class="ih-item square effect3 top_to_bottom"><a href="visualdesign/stealyourheart.html">
+              <div class="img"><img src="../img/squares/personasquare.jpg" alt="img"></div>
               <div class="info">
-                <h3>SpaceRay</h3>
-                <p>HTML5, Bootstrap 4, CSS, Wordpress, Photoshop CC (2019), Illustrator</p>
+                <h3>Steal Your Heart V 1.0 (PSD)</h3>
+                <p>Live Site to include HTML5, Bootstrap 4, SASS, Photoshop CC, JS (2019)</p>
               </div></a>
           </div>
         </div>
       </div>
-      <!--<div class="row">
+      <div class="row">
         <div class="col-md-6 pt-5">
-          <div class="ih-item square effect3 top_to_bottom"><a href="websites/anyafashions.html">
-              <div class="img"><img src="../img/squares/anyasquare.png" alt="img"></div>
+          <div class="ih-item square effect3 top_to_bottom"><a href="visualdesign/meundies.html">
+              <div class="img"><img src="../img/squares/meundiesundies.jpg" alt="img"></div>
               <div class="info">
-                <h3>Anya Fashions V 1.0</h3>
-                <p>HTML5, SCSS, Photoshop CC (2018), Illustrator</p>
+                <h3>Meundies Membership V. 2.0</h3>
+                <p>HTML5, Bootstrap 4, SASS, Photoshop CC (2019)</p>
               </div></a>
           </div>
         </div>
         <div class="col-md-6 pt-5">
-          <div class="ih-item square effect3 top_to_bottom"><a href="#">
-              <div class="img"><img src="img/meundiesundies.jpg" alt="img"></div>
+          <div class="ih-item square effect3 top_to_bottom"><a href="visualdesign/spaceray-sale.html">
+              <div class="img"><img src="../img/squares/spaceraysquare.jpg" alt="img"></div>
               <div class="info">
-                <h3>MeUndies</h3>
-                <p>Landing Page</p>
+                <h3>SpaceRay Sale</h3>
+                <p>HTML5, Bootstrap 4, SASS, Photoshop CC (2018)</p>
+              </div></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 pt-5">
+          <div class="ih-item square effect3 top_to_bottom"><a href="visualdesign/google-ssl.html">
+              <div class="img"><img src="../img/squares/googlesslsquare.jpg" alt="img"></div>
+              <div class="info">
+                <h3>CC Communications SSL Certificate</h3>
+                <p>HTML5, Bootstrap 4, SASS, Photoshop CC (2018)</p>
+              </div></a>
+          </div>
+        </div>
+      </div>
+        <!--<div class="col-md-6 pt-5">
+          <div class="ih-item square effect3 top_to_bottom"><a href="https://areyousecure.cccom.com/sslinfo">
+              <div class="img"><img src="img/googlesslsquare.jpg" alt="img"></div>
+              <div class="info">
+                <h3>CC Communications SSL Certificate</h3>
+                <p>HTML5, Bootstrap 4, SASS, Photoshop CC (2019)</p>
               </div></a>
           </div>
         </div>-->
-      <!--</div>-->
       <!--<div class="row">
         <div class="col-md-6 pt-5">
           <div class=" space-ray "></div>

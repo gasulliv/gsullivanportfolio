@@ -364,6 +364,7 @@ p {line-height: 1.5rem;}
     background: url("../img/crownsguard/header.jpg") no-repeat;
     @include cover;
     @include pfolioheader;
+    background-position: center center !important;
     @include sm {
       height:11rem;
       background-position: top center;
@@ -551,6 +552,68 @@ p {line-height: 1.5rem;}
     transition: background-color 0.5s ease-out;
   }
 }
+
+#cccomgraphics {
+  .graphics {
+    background: url("../img/cccom-graphics/header.jpg") no-repeat;
+    @include cover;
+    @include pfolioheader;
+  }
+  .desktop {
+    width: 80%;
+
+    @include med {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include x-sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include xx-sm {
+      width: 100%;
+      background-position: center center;
+    }
+  }
+  .mobile {
+    width: 40%;
+  }
+  button {
+    margin-left: 1rem;
+    padding:1.5em;
+    background-color: #6a301b;
+    border: none;
+    color: white;
+    font-weight: bold;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+    a {
+      color:white;
+      text-decoration: none;
+    }
+
+  }
+  button:hover {
+    background-color:#4a2603;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+}
+
 #cccomweb {
   .cccomweb {
     background: url("../img/cccomwebsite/header.jpg") no-repeat;
@@ -663,6 +726,189 @@ p {line-height: 1.5rem;}
   }
   button:hover {
     background-color:#2a3936;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+}
+
+#forklift {
+  .mabari {
+    background: url("../img/forkliftpro/header.jpg") no-repeat;
+    @include cover;
+    @include pfolioheader;
+  }
+  .desktop {
+    width: 80%;
+
+    @include med {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include x-sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include xx-sm {
+      width: 100%;
+      background-position: center center;
+    }
+  }
+  .mobile {
+    width: 40%;
+  }
+  button {
+    margin-left: 1rem;
+    padding:1.5em;
+    background-color: #e0be53;
+    border: none;
+    color: white;
+    font-weight: bold;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+    a {
+      color:white;
+      text-decoration: none;
+    }
+
+  }
+  button:hover {
+    background-color:#000;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+}
+
+#cpd {
+  .cpd {
+    background: url("../img/CPD-Graphics/header.jpg") no-repeat;
+    @include cover;
+    @include pfolioheader;
+  }
+  .desktop {
+    width: 80%;
+
+    @include med {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include x-sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include xx-sm {
+      width: 100%;
+      background-position: center center;
+    }
+  }
+  .mobile {
+    width: 40%;
+  }
+  button {
+    margin-left: 1rem;
+    padding:1.5em;
+    background-color: #e0be53;
+    border: none;
+    color: white;
+    font-weight: bold;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+    a {
+      color:white;
+      text-decoration: none;
+    }
+
+  }
+  button:hover {
+    background-color:#000;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+}
+
+#carolinabeertemple {
+  .cbt {
+    background: url("../img/carolinabeertemple/header.jpg") no-repeat;
+    @include cover;
+    @include pfolioheader;
+  }
+  .desktop {
+    width: 80%;
+
+    @include med {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include x-sm {
+      width: 100%;
+      background-position: center center;
+    }
+
+    @include xx-sm {
+      width: 100%;
+      background-position: center center;
+    }
+  }
+  .mobile {
+    width: 40%;
+  }
+  button {
+    margin-left: 1rem;
+    padding:1.5em;
+    background-color: #e0be53;
+    border: none;
+    color: white;
+    font-weight: bold;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+    a {
+      color:white;
+      text-decoration: none;
+    }
+
+  }
+  button:hover {
+    background-color:#000;
     border: none;
     cursor: pointer;
     -webkit-transition: background-color 0.5s ease-out;
